@@ -33,7 +33,7 @@ jobs:
         run: npm ci
       
       - name: Build for GitHub Pages
-        run: npm run build:github
+        run: npm run build
       
       - name: List dist contents
         run: ls -la dist/

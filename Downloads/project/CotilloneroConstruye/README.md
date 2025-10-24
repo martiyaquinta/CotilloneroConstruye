@@ -43,7 +43,9 @@ npm run dev
 
 La aplicación está desplegada en Vercel y se actualiza automáticamente con cada push a la rama main.
 
-**URL de producción:** [CotilloneroConstruye en Vercel](https://cotillonero-construye-4mf717ifw-martiyaquintas-projects.vercel.app)
+**URLs de producción:**
+- **Vercel:** [https://cotillonero-construye-vwb023sg7-martiyaquintas-projects.vercel.app](https://cotillonero-construye-vwb023sg7-martiyaquintas-projects.vercel.app)
+- **GitHub Pages:** [https://martiyaquinta.github.io/CotilloneroConstruye/](https://martiyaquinta.github.io/CotilloneroConstruye/)
 
 ## 📁 Estructura del Proyecto
 

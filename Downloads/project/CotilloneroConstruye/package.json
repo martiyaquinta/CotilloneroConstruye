@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:github": "GITHUB_ACTIONS=true vite build",
+    "build:vercel": "vite build --config vite.config.vercel.ts",
+    "build:github": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
-    "deploy": "npm run build && npx vercel --prod"
+    "deploy": "npm run build:vercel && npx vercel --prod"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",

@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Configuration for Vercel deployment
 export default defineConfig({
   plugins: [react()],
-  base: '/CotilloneroConstruye/',
+  base: '/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },

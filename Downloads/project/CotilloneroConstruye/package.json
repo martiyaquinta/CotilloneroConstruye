@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
-    "deploy": "npm run build && npx vercel --prod",
+    "deploy": "npm run build:vercel && npx vercel --prod",
     "deploy:github": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {

@@ -92,7 +92,7 @@ function App() {
       <section id="inicio" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/images/inicio.jpg"
             alt="Construcción"
             className="w-full h-full object-cover opacity-20"
           />
@@ -174,10 +174,10 @@ function App() {
             <div className="relative">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/1094767/pexels-photo-1094767.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/images/agustintrabajando.png"
                   alt="Agustín Álvarez trabajando"
                   className="w-full h-full object-cover"
-                />
+                />  
               </div>
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-aqua/20 rounded-3xl -z-10" />
             </div>

@@ -272,7 +272,7 @@ function App() {
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                   <img
-                    src={projects[currentProject].before}
+                    src="/images/quinchoantes.jpg"
                     alt="Antes"
                     className="w-full h-full object-cover"
                   />
@@ -283,7 +283,7 @@ function App() {
 
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                   <img
-                    src={projects[currentProject].after}
+                    src="/images/quinchodespues.jpg"
                     alt="Después"
                     className="w-full h-full object-cover"
                   />

@@ -27,17 +27,17 @@ function App() {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Veterinaria Napaleofú",
+      title: "Qincho Don Bosco",
       description: "Optimización del espacio y mejora térmica mediante cielorrasos en drywall y diseño consciente.",
-      before: "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&w=800",
-      after: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800"
+      before: "/images/quinchoantes.jpg",
+      after: "/images/quinchodespues.jpg"
     },
     {
       id: 2,
       title: "Hogar Familiar Tandil",
       description: "Tabiques divisorios livianos para redefinir ambientes con luz natural y funcionalidad.",
-      before: "https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=800",
-      after: "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=800"
+      before: "/images/edificioantes.jpg",
+      after: "/images/edificiodespues.jpg"
     },
     {
       id: 3,
@@ -272,7 +272,7 @@ function App() {
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                   <img
-                    src="/images/quinchoantes.jpg"
+                    src={projects[currentProject].before}
                     alt="Antes"
                     className="w-full h-full object-cover"
                   />
@@ -283,7 +283,7 @@ function App() {
 
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                   <img
-                    src="/images/quinchodespues.jpg"
+                    src={projects[currentProject].after}
                     alt="Después"
                     className="w-full h-full object-cover"
                   />

@@ -147,9 +147,9 @@ function App() {
 
               <div className="space-y-4 text-lg text-navy/80 leading-relaxed">
                 <p>
-                  Fundado por <strong>Agustín Álvarez</strong> en Tandil, Buenos Aires, Argentina,
+                  Fundado por <strong>Agustín Alvarez</strong> en Tandil, Buenos Aires, Argentina,
                   Cotillonero Construye nace de la unión entre el oficio tradicional y una visión
-                  contemporánea del habitar.
+                  contemporánea del construir.
                 </p>
                 <p>
                   Creemos que construir es más que levantar paredes: es crear lugares que mejoran
@@ -355,7 +355,7 @@ function App() {
                   </div>
                   <div>
                     <p className="font-medium text-navy">Teléfono</p>
-                    <p className="text-navy/70">+54 9 249 400 0000</p>
+                    <p className="text-navy/70">+54 9 2261400285</p>
                   </div>
                 </div>
 
@@ -365,7 +365,7 @@ function App() {
                   </div>
                   <div>
                     <p className="font-medium text-navy">Email</p>
-                    <p className="text-navy/70">contacto@cotilloneroconstruye.com</p>
+                    <p className="text-navy/70">cotilloneroconstruye@gmail.com</p>
                   </div>
                 </div>
 
@@ -375,7 +375,7 @@ function App() {
                   </div>
                   <div>
                     <p className="font-medium text-navy">Ubicación</p>
-                    <p className="text-navy/70">Tandil, Buenos Aires, Argentina</p>
+                    <p className="text-navy/70">Tandil y zona, Buenos Aires, Argentina</p>
                   </div>
                 </div>
               </div>

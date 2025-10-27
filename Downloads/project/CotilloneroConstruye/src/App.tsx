@@ -114,7 +114,7 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
               <a
                 href="#contacto"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-navy text-bone rounded-full hover:bg-navy/90 hover:shadow-xl transition-all duration-300 text-lg font-medium"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-navy text-white rounded-full hover:bg-navy/90 hover:shadow-xl transition-all duration-300 text-lg font-medium"
               >
                 Solicitar presupuesto
               </a>
@@ -441,7 +441,7 @@ function App() {
 
                 <button
                   type="submit"
-                  className="w-full px-6 py-4 bg-navy text-bone rounded-full hover:bg-navy/90 hover:shadow-xl transition-all duration-300 text-lg font-medium"
+                  className="w-full px-6 py-4 bg-navy text-white rounded-full hover:bg-navy/90 hover:shadow-xl transition-all duration-300 text-lg font-medium"
                 >
                   Enviar mensaje
                 </button>
@@ -452,38 +452,38 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 bg-navy text-bone">
+      <footer className="py-12 px-6 bg-navy text-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Home className="w-6 h-6 text-aqua" />
-                <span className="text-xl font-semibold">Cotillonero Construye</span>
+                <span className="text-white font-semibold">Cotillonero Construye</span>
               </div>
-              <p className="text-bone/70">
-                Construcción en seco con enfoque sustentable y diseño consciente en Tandil, Buenos Aires.
+              <p className="text-white/70">
+                Construcción en seco con enfoque sustentable y diseño consciente en Tandil y la zona, Buenos Aires.
               </p>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Enlaces rápidos</h4>
+              <h4 className="text-white font-semibold mb-4">Enlaces rápidos</h4>
               <div className="space-y-2">
-                <a href="#inicio" className="block text-bone/70 hover:text-aqua transition-colors">Inicio</a>
-                <a href="#nosotros" className="block text-bone/70 hover:text-aqua transition-colors">Nosotros</a>
-                <a href="#servicios" className="block text-bone/70 hover:text-aqua transition-colors">Servicios</a>
-                <a href="#obras" className="block text-bone/70 hover:text-aqua transition-colors">Obras</a>
+                <a href="#inicio" className="block text-white/70 hover:text-aqua transition-colors">Inicio</a>
+                <a href="#nosotros" className="block text-white/70 hover:text-aqua transition-colors">Nosotros</a>
+                <a href="#servicios" className="block text-white/70 hover:text-aqua transition-colors">Servicios</a>
+                <a href="#obras" className="block text-white/70 hover:text-aqua transition-colors">Obras</a>
               </div>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Horarios</h4>
-              <p className="text-bone/70 mb-2">Lunes a Viernes: 8:00 - 18:00</p>
-              <p className="text-bone/70">Sábados: 9:00 - 13:00</p>
+              <h4 className="text-white font-semibold mb-4">Horarios</h4>
+              <p className="text-white/70 mb-2">Lunes a Viernes: 8:00 - 18:00</p>
+              <p className="text-white/70">Sábados: 9:00 - 13:00</p>
             </div>
           </div>
 
-          <div className="pt-8 border-t border-bone/20 text-center">
-            <p className="text-bone/50 text-sm">
+          <div className="pt-8 border-t border-white/20 text-center">
+            <p className="text-white/50 text-sm">
               © 2025 Cotillonero Construye - Agustín Álvarez. Todos los derechos reservados.
             </p>
           </div>
@@ -493,7 +493,7 @@ function App() {
       {/* WhatsApp Floating Button */}
       <button
         onClick={handleWhatsAppContact}
-        className="fixed bottom-8 right-8 w-16 h-16 bg-aqua text-navy rounded-full flex items-center justify-center hover:shadow-2xl hover:scale-110 transition-all duration-300 z-50"
+        className="fixed bottom-8 right-8 w-16 h-16 bg-aqua text-white rounded-full flex items-center justify-center hover:shadow-2xl hover:scale-110 transition-all duration-300 z-50"
         aria-label="Contactar por WhatsApp"
       >
         <MessageCircle className="w-8 h-8" />
